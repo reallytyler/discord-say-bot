@@ -32,7 +32,7 @@ BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"     # ← Replace this
 ## 🔧 How to Get Credentials
 
 ### Getting Channel ID
-(You can get the tutorial from here)[https://reallytyler.github.io/howtoget/channel-id/index.html]
+[You can get the tutorial from here](https://reallytyler.github.io/howtoget/channel-id/index.html)
 
 ### Getting Bot Token
 1. **Go to [Discord Developer Portal](https://discord.com/developers/applications)**
