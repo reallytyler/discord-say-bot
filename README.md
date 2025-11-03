@@ -121,7 +121,7 @@ if response.status_code == 200 or response.status_code == 201:
 else:
     print(f"❌ Failed to send message ({response.status_code})")
     print(response.text)
-
+```
 
 **requirements.txt**
 ```txt
