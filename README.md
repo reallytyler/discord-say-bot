@@ -35,14 +35,7 @@ BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"     # ← Replace this
 [You can get the tutorial from here](https://reallytyler.github.io/howtoget/channel-id/index.html)
 
 ### Getting Bot Token
-1. **Go to [Discord Developer Portal](https://discord.com/developers/applications)**
-2. **Create/Select Your Application:**
-   - Click "New Application" or select existing one
-3. **Navigate to Bot Section:**
-   - Click on "Bot" in the left sidebar
-4. **Create/Copy Bot Token:**
-   - Click "Reset Token" or "Copy" to get your bot token
-   - ⚠️ **Never share your bot token!**
+**[You can get the tutorial from here](https://reallytyler.github.io/howtoget/bottoken/index.html)**
 
 ### Bot Permissions
 Make sure your bot has:
