@@ -84,44 +84,7 @@ discord-bot/
 ## ⚠️ Security Note
 
 Never commit your actual bot token or channel ID to version control. Use environment variables or config files that are added to `.gitignore` for production use.
-```
 
-**Code Files:**
-
-**sendjson.py**
-```python
-import requests
-import json
-
-# === CONFIGURATION ===
-CHANNEL_ID = "CHANNEL_ID_HERE"   # replace with your target channel ID
-BOT_TOKEN = "BOT_TOKEN_HERE" # replace with your bot token
-JSON_FILE = "message.json"       # the file containing your message data
-# ======================
-
-# Don't forget to put your specified json message in message.json !
-
-# Dont touch this part ↓
-url = f"https://discord.com/api/v10/channels/{CHANNEL_ID}/messages"
-headers = {
-    "Authorization": f"Bot {BOT_TOKEN}",
-    "Content-Type": "application/json"
-}
-
-# Load your JSON message
-with open(JSON_FILE, "r", encoding="utf-8") as f:
-    data = json.load(f)
-
-# Send the message
-response = requests.post(url, headers=headers, json=data)
-
-# Check result
-if response.status_code == 200 or response.status_code == 201:
-    print("✅ Message sent successfully!")
-else:
-    print(f"❌ Failed to send message ({response.status_code})")
-    print(response.text)
-```
 
 **requirements.txt**
 ```txt
