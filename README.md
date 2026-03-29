@@ -32,10 +32,10 @@ BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"     # ← Replace this
 ## 🔧 How to Get Credentials
 
 ### Getting Channel ID
-[You can get the tutorial from here](https://reallytyler.github.io/howtoget/channel-id/index.html)
+[You can get the tutorial from here](https://reallytyler.github.io/howtoget/channel-id)
 
 ### Getting Bot Token
-**[You can get the tutorial from here](https://reallytyler.github.io/howtoget/bottoken/index.html)**
+**[You can get the tutorial from here](https://reallytyler.github.io/howtoget/bottoken)**
 
 ### Bot Permissions
 Make sure your bot has:
